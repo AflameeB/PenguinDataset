@@ -36,15 +36,21 @@ The culmen is "the upper ridge of a bird's beak" (definition from Oxford Languag
 
 ### Questions to Answer:
 • Perform a detailed exploratory data analysis on the dataset
+
 • Experiment using two different ratios of training, validation and test data ie 60-20-20 & 80-10-10. On 
 the two different split ratios do the following
+
 o Implement Grid Search CV to find optimal hyperparameters for any 3 algorithms (out of LR, 
 SVM, MLP, RF, Boosting)
+
 o Plot the learning curve using the learning curve function from scikit-learn to analyze the 
 model performance. The plot should show the training score and cross validation score
 against the number of training examples. 
+
 o Analyze the results on Validation set and Test set and mention which model performed the 
 best and why?
+
 o Compare the performance of models(using precision, recall, accuracy, latency). 
+
 • What was the best proportion or split ratio of data from the set of experiments you conducted and 
 why?
